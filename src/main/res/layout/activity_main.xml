@@ -1,0 +1,184 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/grad"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/commandEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:hint="Enter command"
+        android:textColor="#FFFFFF" />
+
+    <!-- Thumb buttons -->
+
+    <!-- Index finger buttons -->
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/commandEditText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="173dp"
+        android:text="Send" />
+
+    <Button
+        android:id="@+id/thumbUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sendButton"
+        android:layout_alignStart="@id/sendButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-127dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="282dp"
+        android:text="Thumb Up" />
+
+    <Button
+        android:id="@+id/thumbDownButton"
+        android:layout_width="92dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/sendButton"
+        android:layout_alignEnd="@id/sendButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="-114dp"
+        android:text="Thumb Down" />
+
+    <Button
+        android:id="@+id/indexUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thumbUpButton"
+        android:layout_alignStart="@id/thumbUpButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="288dp"
+        android:text="Index Up" />
+
+    <!-- Middle finger buttons -->
+
+    <Button
+        android:id="@+id/indexDownButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thumbUpButton"
+        android:layout_alignEnd="@id/thumbUpButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="-229dp"
+        android:text="Index Down" />
+
+    <Button
+        android:id="@+id/middleUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/indexUpButton"
+        android:layout_alignStart="@id/indexUpButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="281dp"
+        android:text="Middle Up" />
+
+    <!-- Ring finger buttons -->
+
+    <Button
+        android:id="@+id/middleDownButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/indexUpButton"
+        android:layout_alignEnd="@id/indexUpButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="241dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="-236dp"
+        android:text="Middle Down" />
+
+    <Button
+        android:id="@+id/ringUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/middleUpButton"
+        android:layout_alignStart="@id/middleUpButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="288dp"
+        android:text="Ring Up" />
+
+    <!-- Pinky finger buttons -->
+
+    <Button
+        android:id="@+id/ringDownButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/middleUpButton"
+        android:layout_alignEnd="@id/middleUpButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="261dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="-231dp"
+        android:text="Ring Down" />
+
+    <Button
+        android:id="@+id/pinkyUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ringUpButton"
+        android:layout_alignStart="@id/ringUpButton"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="288dp"
+        android:text="Pinky Up" />
+
+    <!-- All fingers buttons -->
+
+    <Button
+        android:id="@+id/pinkyDownButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ringUpButton"
+        android:layout_alignEnd="@id/ringUpButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="-241dp"
+        android:text="Pinky Down" />
+
+    <Button
+        android:id="@+id/allUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pinkyUpButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:text="All Fingers Up" />
+
+    <Button
+        android:id="@+id/allDownButton"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/allUpButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="127dp"
+        android:text="All Fingers Down" />
+</RelativeLayout>
