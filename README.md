@@ -2,7 +2,7 @@
 
 A complete project for building and controlling a 3D-printed bionic arm using an Android application and Arduino.
 
-![Project Banner](https://github.com/user-attachments/assets/f35a1f5b-b5c9-4cf7-b8c7-825b47b2cc41)
+![Project Banner](bionic_arm_banner.png)
 
 ## Overview
 
